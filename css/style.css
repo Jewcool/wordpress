@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
 .container {
   position: relative;
   width: 1140px;
@@ -34,8 +39,8 @@ h1 {
 }
 .title {
   color: #F9BF3B;
-  font-family: 'Roboto - Black';
-  font-weight: 400;
+  /* font-family: 'Roboto Black', sans-serif; */
+  font-weight: 900;
   font-size: 41px;
   line-height: 24px;
   text-transform: uppercase;
@@ -46,8 +51,7 @@ h2.title {
 }
 .simple .title_big {
   color: #FFFFFF;
-  font-family: 'Roboto - Black';
-  font-weight: 400;
+  font-weight: 900;
   font-size: 80px;
   text-transform: uppercase;
   text-align: center;
@@ -56,7 +60,6 @@ h2.title {
 .promo .promo_text {
   padding: 0 13px;
   margin-top: 23px;
-  font-family: "Roboto Light";
   font-weight: 300;
   font-size: 21px;
   line-height: 28px;
@@ -65,7 +68,6 @@ h2.title {
 }
 .promo .promo_text span {
   color:#F9BF3B;
-  font-family: "Roboto - Bold";
   font-weight: 700;
 }
 .promo .promo_btn, .gift .gift_btn {
